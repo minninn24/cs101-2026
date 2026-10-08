@@ -7,7 +7,7 @@ int main() {
     }
     else {
         int n = i - 1500;
-        if (i%100){
+        if (n%100){
             int h = ((n/100)+1) * 10;
             printf("%d 元", 70 + h);
         }
